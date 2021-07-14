@@ -1,0 +1,18 @@
+ALGORITHM checkpoint-linear
+VAR
+   set1,set2;set3,set4: ARRAY_OF INTEGER;
+   i,j,k,l,sum1,sum2:INTEGER;
+BEGIN
+ WHILE (i=0;i=<length.set1;i++) DO
+ WHILE (j=0;j=<length.set2;j++) DO
+IF (set1[i]==set2[j]) 
+  set3=set1[i];
+ sum1=((set3[k]+set3[k+1])*2)
+   else  
+   set4=(set1[i]+set2[j])
+ sum2=((set4[l]+set3[l+1]))
+   END_IF
+END_WHILE
+END_WHILE
+END
+ 
